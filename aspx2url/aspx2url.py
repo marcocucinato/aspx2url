@@ -2,6 +2,7 @@ from __future__ import print_function
 import re, sys, glob, getopt, os
 
 def usage():
+    print('aspx2url v1.0')
     print('Usage:')
     print(sys.argv[0]+' -d -h filename(s)') 
     print('-d : Delete original file')
